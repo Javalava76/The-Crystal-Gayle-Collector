@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crystal Collector</title>
+    <!-- <link rel="stylesheet" type=text/css href="assets/css/reset.css">not necessary because of bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type=text/css href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- jumbotron title -->
+    <div class="jumbotron">
+        <h1 class="text-center">The Crystal Collector</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-6" id=instructions>
+            		<br>
+            		<p>INSTRUCTIONS:
+                <br>
+                <br>
+                <p>*  You will be given a random number at the start of the game that will appear in the pink box.</p>
+                <br>
+                <br>
+                <p>*  There are four photos of Crystal Gayle. By clicking on a photo of Crystal you will add a specific amount of points to your total score.</p>
+                <br>
+                <br>
+                <p>*  You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+                <br>
+                <br>
+                <p>*  The value of each Crystal is hidden from you until you click on it.</p>
+                <br>
+                <br>
+                <p>*  Each time the game starts, the game will change the values of each Crystal.</p>
+            </div>
+            <div class="col-md-2">
+            	<div id="crystals"></div>
+
+
+            </div>
+            <div class="col-md-2" id="scoreBoard">
+                <br>
+                <h3>Wins: <span id="wins"></span></h3>
+                <br>
+                
+                <h3>Losses: <span id="losses"></span></h3>
+                <br>
+              
+                <div class="row">
+                    <div class="col-md-12" id="numbers">
+                    		<br>
+                        <h3> <br><span id="numberToGuess"></span></h3>
+                        <br>
+                        <h3>Your Total:  <span id="updatingNumber"></span></h3>
+                        <br>
+                    </div>
+                </div>
+              
+                </div>
+                <div class="col-md-1">
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+</body>
+
+</html>

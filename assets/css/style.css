@@ -1,0 +1,46 @@
+*	{
+	font-family: fantasy;
+}
+
+.jumbotron {
+	background-image: url(http://powerthoughtsmeditationclub.com/wp-content/uploads/2015/06/layers_of_crystal__purple__by_sara_satellite.jpg);
+	background-size: 500px;
+	color: yellow;
+	text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+#instructions {
+	font-size: 18px;
+	background-color: lightgreen;
+}
+
+#scoreBoard {
+	background-color: lightblue;
+}
+
+
+#numbers {
+	background-color: lightpink;
+	height: 200px;
+
+}
+
+
+#crystals img {
+	height: 135px;
+	width: 135px;
+	margin-bottom: 3px;
+}
+
+#numberToGuess {
+	font-size: 30px;
+	color: red;
+	padding-top: 15px;
+	text-shadow: black;
+
+}
+
+#updatingNumber {
+	font-size:  25px;
+	color: green;
+}
